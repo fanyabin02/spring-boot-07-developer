@@ -12,8 +12,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        System.out.println("测试====分支");
-        System.out.println("二次测试分支");
         System.out.println("second commit");
         return "abc";
     }
