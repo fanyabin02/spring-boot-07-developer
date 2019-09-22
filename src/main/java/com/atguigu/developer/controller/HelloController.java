@@ -13,6 +13,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
         System.out.println("aa");
+        System.out.println("second commit");
         return "abc";
     }
 
