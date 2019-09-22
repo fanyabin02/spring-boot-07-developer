@@ -12,7 +12,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        System.out.println("second commit");
+        System.out.println("branch commit");
         return "abc";
     }
 
